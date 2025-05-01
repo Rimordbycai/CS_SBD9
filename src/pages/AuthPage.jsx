@@ -62,7 +62,6 @@ export default function AuthPage({ onLogin }) { // Add onLogin prop
         password: registerPassword
       });
       console.log("Registration successful:", response);
-      alert("Registration successful! Please login.");
       
       // Reset form
       setRegisterName("");
